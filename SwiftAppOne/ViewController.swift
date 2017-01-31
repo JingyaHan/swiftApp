@@ -3,8 +3,10 @@
 //  SwiftAppOne
 //
 //  Created by JINGYA HAN on 2017/1/25.
-//  Copyright © 2017年 JINGYA HAN. All rights reserved.
+//  Copyright © 2017年 JINGYA HAN. All rights reserved. ....
 //
+
+//  😄
 
 import UIKit
 
@@ -20,7 +22,7 @@ class ViewController: UIViewController {
         print("Nice to meet you")
         tapCount = tapCount + 1
         print(tapCount)
-        if tapCount >= 10 {
+        if tapCount >= 5 {
             print("dearest 黄彦云啊")
             theLabel.text = "黄彦云啊黄彦云piu"
         }
