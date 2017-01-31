@@ -29,10 +29,16 @@ class ViewController: UIViewController {
         
     }
     
+    @IBOutlet weak var text1: UITextField!
+    
+    @IBOutlet weak var text2: UITextField!
+    
     @IBAction func LOL(_ sender: Any) {
         
         theLabel.text = "And I like you :DDD"
         print("yeah I reaaaaaally do")
+        print(text1.text!)
+        print(text2.text!)
         
     }
     override func viewDidLoad() {
