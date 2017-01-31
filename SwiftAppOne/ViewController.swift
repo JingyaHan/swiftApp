@@ -33,6 +33,11 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var text2: UITextField!
     
+    @IBAction func add(_ sender: Any) {
+        
+        theLabel.text = "You get: \(Double(text1.text!)! + Double(text2.text!)!)"
+        
+    }
     @IBAction func LOL(_ sender: Any) {
         
         theLabel.text = "And I like you :DDD"
